@@ -1,3 +1,1 @@
-class refresh {
-  int jj = 1;
-}
+Future<void> refresh() async {}
