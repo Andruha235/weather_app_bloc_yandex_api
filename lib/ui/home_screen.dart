@@ -10,6 +10,7 @@ import '../widgets/10_days_forecast.dart';
 import '../widgets/dots_indicator.dart';
 import '../widgets/horizontal_scroll_weather_24h.dart';
 import '../widgets/marketing.dart';
+import '../widgets/marketing_down.dart';
 import '../widgets/refresh.dart';
 import '../widgets/triple_horizontal_pages.dart';
 import '../widgets/weather_basic_parametr.dart';
@@ -66,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         child: RefreshIndicator(
           onRefresh: refresh,
           child: Container(
-            color: Colors.white,
+            color: Colors.white ,
             height: double.infinity,
             child: Stack(
               children: [
@@ -88,6 +89,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                           dotsIndicator(),
                           marketing(),
                           tenDaysForecast(),
+                          marketing_down(),
                         ],
                       ),
                     ],

@@ -34,7 +34,22 @@ Container tenDaysForecast() {
         daysData(),
         SizedBox(height: 5,),
         daysData(),
+        SizedBox(height: 5,),
+        gotoMonthsData(),
       ],
+    ),
+  );
+}
+
+Container gotoMonthsData() {
+  return Container(
+    padding: EdgeInsets.only(left: 16, right: 16),
+    width: 392,
+    height: 60,
+    child: Card(
+        child: Center(
+          child: Text('Прогноз на месяц>'),
+        )
     ),
   );
 }

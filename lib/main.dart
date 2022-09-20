@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'ui/Favorites.dart';
 import 'ui/home_screen.dart';
 
 void main() {

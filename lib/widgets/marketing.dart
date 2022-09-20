@@ -26,7 +26,7 @@ Container marketing() {
                   ),
                   SizedBox(width: 10,),
                   Text('Реклама', style: TextStyle(color: Colors.grey),),
-                  SizedBox(width: 75),
+                  SizedBox(width: 65),
                   CircleAvatar(
                       backgroundColor: Colors.grey[400],
                       radius: 10,

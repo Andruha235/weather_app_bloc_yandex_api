@@ -98,6 +98,7 @@ Container horizontal_scroll_weather_24h() {
               hourData(),
               const SizedBox(width: 20,),
               hourData(),
+              const SizedBox(width: 20,),
             ],
           ),
         )
